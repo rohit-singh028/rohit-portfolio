@@ -1,0 +1,128 @@
+media:
+  - name: images
+    label: Images
+    input: images
+    output: images
+    categories: [image]
+  - name: docs
+    label: Documents
+    input: docs
+    output: docs
+    categories: [document]
+content:
+  - name: site
+    label: Portfolio content
+    type: file
+    path: content.json
+    format: json
+    fields:
+      - name: hero
+        label: Hero (top section)
+        type: object
+        fields:
+          - {name: greeting, label: Greeting, type: string}
+          - {name: name, label: Name, type: string}
+          - {name: role, label: Role line, type: string}
+          - {name: quote, label: Quote, type: string}
+          - {name: btn1, label: Button 1 text, type: string}
+          - {name: btn2, label: Button 2 text, type: string}
+          - {name: resume, label: Resume PDF, type: file}
+      - name: about
+        label: About
+        type: object
+        fields:
+          - {name: title, label: Title, type: string}
+          - {name: accent, label: Title (purple part), type: string}
+          - {name: text, label: Intro paragraph, type: text}
+          - name: stats
+            label: Stat cards
+            type: object
+            list: true
+            fields:
+              - {name: label, label: Label, type: string}
+              - {name: value, label: Value (e.g. 1+ year), type: string}
+              - {name: note, label: Small note, type: string}
+      - name: results
+        label: Results note
+        type: object
+        fields:
+          - {name: note, label: Disclaimer text, type: text}
+      - name: meta
+        label: Meta Ads numbers
+        type: object
+        list: true
+        fields:
+          - {name: label, label: Label, type: string}
+          - {name: value, label: Value, type: number}
+          - {name: prefix, label: Prefix (e.g. ₹), type: string}
+          - {name: unit, label: Unit (Lakh / Million / empty), type: string}
+          - {name: decimals, label: Decimals, type: number}
+      - name: google
+        label: Google Ads numbers
+        type: object
+        list: true
+        fields:
+          - {name: label, label: Label, type: string}
+          - {name: value, label: Value, type: number}
+          - {name: prefix, label: Prefix (e.g. ₹), type: string}
+          - {name: unit, label: Unit (Lakh / Million / empty), type: string}
+          - {name: decimals, label: Decimals, type: number}
+      - name: expertise
+        label: Expertise cards
+        type: object
+        list: true
+        fields:
+          - {name: title, label: Title, type: string}
+          - {name: text, label: Description, type: text}
+      - name: experience
+        label: Work experience
+        type: object
+        list: true
+        fields:
+          - {name: role, label: Role, type: string}
+          - {name: company, label: Company, type: string}
+          - {name: period, label: Period, type: string}
+          - {name: points, label: Bullet points, type: string, list: true}
+      - name: process
+        label: Campaign process steps
+        type: object
+        list: true
+        fields:
+          - {name: title, label: Step name, type: string}
+          - {name: text, label: Description, type: text}
+      - name: tools
+        label: Tools list
+        type: string
+        list: true
+      - name: projects
+        label: Creative portfolio projects
+        type: object
+        list: true
+        fields:
+          - {name: t, label: Title, type: string}
+          - {name: c, label: Category, type: string}
+          - {name: d, label: Description, type: text}
+          - {name: src, label: Image, type: image}
+      - name: certs
+        label: Certifications
+        type: object
+        list: true
+        fields:
+          - {name: title, label: Certification, type: string}
+          - {name: issuer, label: Issuer / year, type: string}
+      - name: education
+        label: Education
+        type: object
+        fields:
+          - {name: title, label: Title, type: string}
+          - {name: text, label: Details, type: text}
+      - name: contact
+        label: Contact
+        type: object
+        fields:
+          - {name: title, label: Title, type: string}
+          - {name: accent, label: Title (purple part), type: string}
+          - {name: name, label: Name, type: string}
+          - {name: location, label: Location, type: string}
+          - {name: email, label: Email, type: string}
+          - {name: linkedin, label: LinkedIn URL, type: string}
