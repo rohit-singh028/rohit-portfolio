@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rohit Singh | Performance Marketer & Paid Ads Specialist</title>
+<meta name="description" content="Portfolio of Rohit Singh, performance marketer in Bengaluru specialising in Meta Ads, Google Ads, LinkedIn Ads, SEO and analytics.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap">
+<style>
+:root{--bg:#09090F;--bg2:#12121C;--p:#702BCE;--p2:#A855F7;--t:#fff;--m:#a1a1b5;--line:rgba(168,85,247,.18);color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--t);font-family:Sora,Inter,system-ui,sans-serif;line-height:1.65;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+section{padding:96px 6vw;max-width:1200px;margin:auto;position:relative}
+h2{font-size:clamp(1.8rem,4vw,2.8rem);line-height:1.2;margin-bottom:12px}
+.eyebrow{color:var(--p2);font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;margin-bottom:10px;display:block}
+.sub{color:var(--m);max-width:680px;margin-bottom:40px}
+.grad{background:linear-gradient(90deg,#fff,var(--p2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.card{background:linear-gradient(145deg,rgba(255,255,255,.05),rgba(255,255,255,.01));border:1px solid var(--line);border-radius:18px;padding:24px;backdrop-filter:blur(12px);transition:transform .35s,border-color .35s,box-shadow .35s}
+.card:hover{transform:translateY(-6px);border-color:var(--p2);box-shadow:0 18px 50px -20px var(--p)}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.btn{display:inline-block;padding:14px 28px;border-radius:99px;font-weight:600;font-size:.92rem;border:1px solid var(--p2);cursor:pointer;font-family:inherit;color:#fff;background:transparent;transition:.3s}
+.btn.pri{background:linear-gradient(90deg,var(--p),var(--p2));border-color:transparent;box-shadow:0 10px 30px -10px var(--p)}
+.btn:hover{transform:translateY(-3px);box-shadow:0 14px 34px -10px var(--p2)}
+nav{position:fixed;top:0;left:0;right:0;z-index:50;padding:calc(14px + env(safe-area-inset-top,0px)) 6vw 14px;display:flex;justify-content:space-between;align-items:center;transition:.4s}
+nav.s{background:rgba(9,9,15,.8);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav .logo{font-weight:700;letter-spacing:.05em}.logo b{color:var(--p2)}
+nav ul{display:flex;gap:26px;list-style:none;padding:0;font-size:.82rem;color:var(--m)}
+nav ul a{position:relative;transition:.3s}nav ul a:hover{color:#fff}
+nav ul a::after{content:"";position:absolute;left:0;bottom:-4px;height:1px;width:0;background:var(--p2);transition:.3s}nav ul a:hover::after{width:100%}
+@media(max-width:860px){nav ul{display:none}}
+#glow{position:fixed;width:380px;height:380px;border-radius:50%;pointer-events:none;background:radial-gradient(circle,rgba(168,85,247,.16),transparent 65%);transform:translate(-50%,-50%);z-index:0;display:none}
+@media(hover:hover) and (pointer:fine){#glow{display:block}}
+.hero{min-height:100vh;display:grid;grid-template-columns:1.05fr 1fr;gap:30px;align-items:center;padding-top:110px}
+.hero h1{font-size:clamp(2.2rem,5.4vw,4rem);line-height:1.1;margin:12px 0}
+.role{color:var(--p2);font-size:.95rem;margin-bottom:18px}
+.quote{color:var(--m);font-style:italic;margin-bottom:30px;border-left:2px solid var(--p);padding-left:14px}
+.stage{position:relative;aspect-ratio:1/1;max-width:560px;width:100%;margin:auto}
+.stage svg.scene{width:100%;height:100%;border-radius:28px;border:1px solid var(--line);background:radial-gradient(circle at 50% 35%,#2a1450,#0d0d18 70%)}
+.chip{position:absolute;padding:6px 12px;border-radius:99px;font-size:.62rem;letter-spacing:.08em;background:rgba(112,43,206,.22);border:1px solid var(--p2);backdrop-filter:blur(8px);animation:fl 6s ease-in-out infinite;white-space:nowrap}
+@keyframes fl{50%{transform:translateY(-12px)}}
+.scroll{position:absolute;bottom:26px;left:50%;width:22px;height:36px;border:1px solid var(--m);border-radius:12px;transform:translateX(-50%)}
+.scroll::after{content:"";position:absolute;left:50%;top:6px;width:3px;height:7px;margin-left:-1.5px;background:var(--p2);border-radius:2px;animation:sc 1.8s infinite}
+@keyframes sc{60%{transform:translateY(12px);opacity:0}}
+@media(max-width:860px){.hero{grid-template-columns:1fr;text-align:left}}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .8s,transform .8s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.rv.in{opacity:1;transform:none}
+.num{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:700;color:#fff}
+.lbl{color:var(--m);font-size:.78rem;margin-bottom:10px}
+.bar{height:4px;background:rgba(255,255,255,.08);border-radius:4px;overflow:hidden}.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--p),var(--p2));transition:width 1.6s}
+.tabs{display:flex;gap:10px;margin-bottom:22px}.tabs .btn{padding:10px 22px}.tabs .on{background:var(--p);border-color:var(--p)}
+.note{margin-top:22px;padding:14px 18px;border:1px dashed var(--line);border-radius:12px;color:var(--m);font-size:.82rem}
+.chart{margin-top:24px;display:flex;align-items:flex-end;gap:14px;height:180px;padding:20px;border:1px solid var(--line);border-radius:18px;background:var(--bg2)}
+.chart div{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;font-size:.65rem;color:var(--m);text-align:center;gap:6px}
+.chart b{width:100%;max-width:56px;border-radius:8px 8px 0 0;background:linear-gradient(180deg,var(--p2),var(--p));height:0;transition:height 1.2s}
+.card h3{font-size:1.02rem;margin-bottom:6px}.card p,.card li{color:var(--m);font-size:.86rem}
+.ico{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:rgba(112,43,206,.25);color:var(--p2);margin-bottom:14px;font-weight:700}
+.tl{border-left:1px solid var(--line);margin-left:8px;padding-left:30px}
+.tl .card{margin-bottom:26px;position:relative}
+.tl .card::before{content:"";position:absolute;left:-37px;top:30px;width:13px;height:13px;border-radius:50%;background:var(--p2);box-shadow:0 0 0 5px rgba(168,85,247,.2)}
+.tl ul{padding-left:18px;margin-top:10px}.when{color:var(--p2);font-size:.8rem}
+.steps{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:22px}
+.step{padding:12px 18px;border-radius:14px;border:1px solid var(--line);background:var(--bg2);cursor:pointer;font:inherit;font-size:.82rem;color:var(--m);transition:.3s}
+.step:hover,.step.on{color:#fff;border-color:var(--p2);background:rgba(112,43,206,.3)}
+.arr{color:var(--p2);animation:ar 1.6s infinite}@keyframes ar{50%{transform:translateX(5px)}}
+.pills{display:flex;flex-wrap:wrap;gap:10px}.pills span{padding:10px 18px;border-radius:99px;border:1px solid var(--line);background:var(--bg2);font-size:.82rem;transition:.3s}
+.pills span:hover{border-color:var(--p2);transform:translateY(-4px);box-shadow:0 10px 24px -12px var(--p2)}
+.proj{padding:0;overflow:hidden}.proj .pv{aspect-ratio:16/10;background:linear-gradient(135deg,#2a1450,#12121C);display:grid;place-items:center;color:var(--m);font-size:.8rem;overflow:hidden}
+.proj img,.proj video{width:100%;height:100%;object-fit:cover;transition:transform .6s}.proj:hover img{transform:scale(1.07)}
+.proj .pb{padding:18px}.tag{font-size:.68rem;color:var(--p2);text-transform:uppercase;letter-spacing:.1em}
+.rm{float:right;background:none;border:0;color:var(--m);cursor:pointer;font-size:1.1rem}.rm:hover{color:#f87171}
+form.add{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));margin-bottom:24px}
+form.add input,form.add select{background:var(--bg2);border:1px solid var(--line);color:#fff;padding:12px;border-radius:10px;font:inherit;font-size:.82rem;min-width:0}
+.cta{text-align:center;padding:70px 20px;border-radius:28px;border:1px solid var(--line);background:radial-gradient(circle at 50% 0,rgba(112,43,206,.35),transparent 70%),var(--bg2)}
+.cta p{color:var(--m);margin:6px 0}
+#toast{position:fixed;bottom:calc(24px + env(safe-area-inset-bottom,0px));left:50%;transform:translate(-50%,30px);opacity:0;background:var(--bg2);border:1px solid var(--p2);padding:12px 20px;border-radius:12px;font-size:.82rem;z-index:99;transition:.4s;max-width:90vw}
+#toast.on{opacity:1;transform:translate(-50%,0)}
+footer{text-align:center;color:var(--m);font-size:.75rem;padding:30px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+.cloud{position:absolute;top:2%;left:50%;margin-left:-90px;width:180px;display:flex;flex-direction:column;align-items:center;gap:2px;padding:12px 14px;border-radius:50px;background:rgba(112,43,206,.3);border:1px solid var(--p2);backdrop-filter:blur(10px);box-shadow:0 0 40px -8px var(--p2);animation:fl 5s ease-in-out infinite;text-align:center}
+.cloud small{font-size:.6rem;letter-spacing:.2em;color:var(--m)}.cloud b{font-size:1.4rem;transition:opacity .3s}
+.spark{stroke-dasharray:100;animation:dr 2.4s linear infinite}@keyframes dr{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+.dot{position:absolute;border-radius:50%;background:rgba(112,43,206,.4);border:1px solid var(--p2);left:50%}.d1{width:16px;height:16px;top:21%;margin-left:-4px}.d2{width:9px;height:9px;top:25%;margin-left:8px}
+form.add{display:none!important}
+</style></head><body>
+<div id="glow"></div>
+<nav id="nav"><a class="logo" href="#top">Rohit<b>.</b>Singh</a>
+<ul><li><a href="#about">About</a></li><li><a href="#results">Results</a></li><li><a href="#expertise">Expertise</a></li><li><a href="#experience">Experience</a></li><li><a href="#process">Process</a></li><li><a href="#work">Work</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+
+<main id="top">
+<section class="hero">
+<div>
+<span class="eyebrow rv">Portfolio 2026</span>
+<h1 class="rv" style="--d:.1s"><span data-t="hero.greeting"></span> <span class="grad" data-t="hero.name"></span></h1>
+<p class="role rv" style="--d:.2s" data-t="hero.role"></p>
+<p class="quote rv" style="--d:.3s" data-t="hero.quote"></p>
+<div class="rv" style="--d:.4s;display:flex;gap:14px;flex-wrap:wrap"><a class="btn pri" href="#work" data-t="hero.btn1"></a><a class="btn" id="cv" href="#" download data-t="hero.btn2"></a></div>
+</div>
+<div class="stage" id="stage">
+<svg class="scene" viewBox="0 0 400 400" role="img" aria-label="Cartoon illustration of Rohit Singh thinking about Meta Ads ROAS while working on a laptop">
+<defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#702BCE"/></linearGradient>
+<radialGradient id="sk" cx=".4" cy=".35"><stop offset="0" stop-color="#d79a6f"/><stop offset="1" stop-color="#b57650"/></radialGradient></defs>
+<ellipse cx="200" cy="385" rx="150" ry="12" fill="#702BCE" opacity=".25"/>
+<g transform="translate(20,36) scale(.9)">
+<rect x="110" y="215" width="130" height="130" rx="30" fill="#1b1b2b" stroke="#702BCE" stroke-opacity=".5"/>
+<rect x="190" y="340" width="12" height="26" fill="#2a2a3d"/><rect x="150" y="364" width="92" height="8" rx="4" fill="#2a2a3d"/>
+<path d="M120 330 C115 250 140 215 200 215 C255 215 275 250 270 330Z" fill="#0b0b12" stroke="#2c2c40"/>
+<rect x="177" y="190" width="44" height="36" rx="16" fill="#b57650"/>
+<ellipse cx="152" cy="154" rx="7" ry="11" fill="#b57650"/><ellipse cx="244" cy="154" rx="7" ry="11" fill="#b57650"/>
+<ellipse cx="198" cy="152" rx="46" ry="51" fill="url(#sk)"/>
+<g fill="#15111d"><circle cx="164" cy="104" r="14"/><circle cx="184" cy="92" r="15"/><circle cx="208" cy="90" r="15"/><circle cx="230" cy="100" r="14"/><circle cx="198" cy="104" r="15"/><circle cx="170" cy="120" r="11"/><circle cx="226" cy="118" r="11"/><circle cx="150" cy="130" r="8"/><circle cx="246" cy="128" r="8"/></g>
+<path d="M153 148 C150 196 172 216 198 216 C224 216 246 196 243 148 C240 170 232 177 220 179 C210 172 186 172 176 179 C164 177 156 170 153 148Z" fill="#17121c"/>
+<path d="M177 178 Q198 168 219 178 Q198 183 177 178Z" fill="#17121c"/>
+<ellipse cx="198" cy="187" rx="9" ry="3" fill="#8a4a3c"/>
+<ellipse cx="182" cy="153" rx="6" ry="4" fill="#fff"/><ellipse cx="214" cy="153" rx="6" ry="4" fill="#fff"/>
+<circle cx="183" cy="153" r="3" fill="#2b1a12"/><circle cx="215" cy="153" r="3" fill="#2b1a12"/>
+<path d="M172 144 Q182 139 192 144 M204 144 Q214 139 224 144" stroke="#15111d" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M198 158 Q193 168 199 171" stroke="#8d5a3b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M150 300 L205 300 L205 262 L150 262Z" fill="#0b0b12"/>
+<g transform="translate(70 270)"><path d="M0 70 L260 70 L240 90 L20 90Z" fill="#2a2a3d"/>
+<rect x="22" y="-10" width="216" height="82" rx="8" fill="#0d0d18" stroke="url(#g1)" stroke-width="2"/>
+<rect x="30" y="-2" width="60" height="26" rx="4" fill="#702BCE" opacity=".35"/><rect x="96" y="-2" width="60" height="26" rx="4" fill="#A855F7" opacity=".35"/><rect x="162" y="-2" width="68" height="26" rx="4" fill="#702BCE" opacity=".35"/>
+<polyline points="32,60 60,44 88,52 120,30 150,40 190,18 228,26" fill="none" stroke="#A855F7" stroke-width="2.5"/></g>
+<path d="M135 250 L120 320 L205 332" fill="none" stroke="#0b0b12" stroke-width="22" stroke-linecap="round"/>
+</g></svg>
+<div class="cloud" aria-hidden="true"><small>META ADS</small><b id="rt">ROAS</b><svg viewBox="0 0 80 24" width="80" height="24"><polyline class="spark" points="2,20 16,14 28,17 42,8 56,11 78,3" fill="none" stroke="#A855F7" stroke-width="2.5" stroke-linecap="round"/></svg></div>
+<i class="dot d1"></i><i class="dot d2"></i>
+<span class="chip" style="top:8%;left:3%">ROAS</span><span class="chip" style="top:8%;right:3%;animation-delay:-1s">CTR</span>
+<span class="chip" style="top:24%;left:0;animation-delay:-2s">CPC</span><span class="chip" style="top:24%;right:0;animation-delay:-3s">CPA</span>
+<span class="chip" style="top:40%;left:0;animation-delay:-4s">CONVERSIONS</span><span class="chip" style="top:40%;right:0;animation-delay:-5s">META ADS</span>
+<span class="chip" style="bottom:26%;left:1%;animation-delay:-2.5s">GOOGLE ADS</span>
+<span class="chip" style="bottom:9%;left:-2%;animation-delay:-1.5s">CAMPAIGN OPTIMIZATION</span><span class="chip" style="bottom:14%;right:-2%;animation-delay:-3.5s">PERFORMANCE ANALYTICS</span>
+</div>
+<div class="scroll" aria-hidden="true"></div>
+</section>
+
+<section id="about"><span class="eyebrow rv">About me</span>
+<h2 class="rv"><span data-t="about.title"></span> <span class="grad" data-t="about.accent"></span></h2>
+<p class="sub rv" data-t="about.text"></p><div class="grid" id="stats"></div></section>
+
+<section id="results">
+<span class="eyebrow rv">Performance dashboard</span>
+<h2 class="rv">Campaign <span class="grad">results.</span></h2>
+<p class="sub rv">1 Aug – 31 Oct 2026</p>
+<div class="tabs rv"><button class="btn on" data-tab="meta">Meta Ads</button><button class="btn" data-tab="google">Google Ads</button></div>
+<div id="dash"></div>
+<div class="chart" id="chart" aria-label="Relative scale chart"></div>
+<p class="note rv" data-t="results.note"></p>
+</section>
+
+<section id="expertise">
+<span class="eyebrow rv">My expertise</span><h2 class="rv">What I <span class="grad">do best.</span></h2><div style="height:24px"></div>
+<div class="grid" id="exp"></div></section>
+
+<section id="experience">
+<span class="eyebrow rv">Work experience</span><h2 class="rv">My <span class="grad">journey.</span></h2><div style="height:24px"></div>
+<div class="tl" id="tl"></div></section>
+
+<section id="process">
+<span class="eyebrow rv">Campaign strategy</span><h2 class="rv">From research to <span class="grad">conversions.</span></h2><div style="height:24px"></div>
+<div class="steps rv" id="steps"></div>
+<div class="card rv" id="stepinfo"></div></section>
+
+<section id="tools">
+<span class="eyebrow rv">Tools &amp; technologies</span><h2 class="rv">My <span class="grad">stack.</span></h2><div style="height:24px"></div>
+<div class="pills rv" id="pills"></div></section>
+
+<section id="work">
+<span class="eyebrow rv">Creative portfolio</span><h2 class="rv">Selected <span class="grad">work.</span></h2>
+<p class="sub rv">Selected campaign creatives, screenshots and reports.</p>
+<form class="add rv" id="addf"><input id="pt" placeholder="Project title" required><select id="pc"><option>Meta Ads creative</option><option>Google Ads screenshot</option><option>Campaign report</option><option>Marketing poster</option><option>Video sample</option><option>AI product creative</option><option>Analytics dashboard</option></select><input id="pd" placeholder="Description"><input id="pf" type="file" accept="image/*,video/*"><button class="btn pri" type="submit">Add project</button></form>
+<div class="grid" id="gal"></div></section>
+
+<section id="certs">
+<span class="eyebrow rv">Certifications &amp; education</span><h2 class="rv">Credentials.</h2><div style="height:24px"></div>
+<div class="grid" id="certgrid"></div></section>
+
+<section id="contact"><div class="cta rv">
+<span class="eyebrow">Contact</span><h2><span data-t="contact.title"></span> <span class="grad" data-t="contact.accent"></span></h2>
+<p><span data-t="contact.name"></span> · <span data-t="contact.location"></span></p><p data-t="contact.email"></p>
+<div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:26px"><a class="btn pri" id="em" href="#">Email Me</a><a class="btn" id="li" href="#" target="_blank" rel="noopener">LinkedIn</a></div></div></section>
+</main>
+<footer>© 2026 Rohit Singh</footer>
+<div id="toast" role="status"></div>
+
+<script>
+
+fetch("content.json",{cache:"no-store"}).then(function(r){return r.json()}).then(function(C){
+var $=function(s){return document.querySelector(s)};
+var RESUME_URL=C.hero.resume,PROJECTS=C.projects||[];
+function G(o,p){return p.split(".").reduce(function(a,k){return a&&a[k]},o)}
+document.querySelectorAll("[data-t]").forEach(function(e){var v=G(C,e.dataset.t);if(v!=null)e.textContent=v});
+$("#stats").innerHTML=C.about.stats.map(function(x,i){var m=/^(\d+)(.*)$/.exec(x.value);var v=m?'<span data-c="'+m[1]+'" data-s="'+esc(m[2])+'">0</span>':esc(x.value);return '<div class="card rv" style="--d:'+i*.1+'s"><div class="lbl">'+esc(x.label)+'</div><div class="num">'+v+'</div><p>'+esc(x.note||"")+'</p></div>'}).join("");
+$("#tl").innerHTML=C.experience.map(function(x){return '<div class="card rv"><h3>'+esc(x.role)+' · '+esc(x.company)+'</h3><div class="when">'+esc(x.period)+'</div><ul>'+(x.points||[]).map(function(p){return '<li>'+esc(p)+'</li>'}).join("")+'</ul></div>'}).join("");
+$("#certgrid").innerHTML=C.certs.map(function(c,i){return '<div class="card rv" style="--d:'+i*.05+'s"><div class="ico">'+esc((c.title||"?")[0])+'</div><h3>'+esc(c.title)+'</h3><p>'+esc(c.issuer||"")+'</p></div>'}).join("")+'<div class="card rv"><div class="ico">B</div><h3>'+esc(C.education.title)+'</h3><p>'+esc(C.education.text)+'</p></div>';
+$("#em").href="mailto:"+C.contact.email;$("#li").href=C.contact.linkedin;
+function toast(m){var t=$("#toast");t.textContent=m;t.classList.add("on");setTimeout(function(){t.classList.remove("on")},3200)}
+$("#cv").addEventListener("click",function(e){if(!RESUME_URL){e.preventDefault();toast("Resume file not linked yet: set RESUME_URL in the page source.")}else this.href=RESUME_URL});
+var reduce=matchMedia("(prefers-reduced-motion:reduce)").matches;
+// data
+function mk(a){return a.map(function(x){return [x.label,+x.value,x.prefix||"",x.unit||"",+x.decimals||0]})}var D={meta:{s:mk(C.meta)},google:{s:mk(C.google)}};
+function fmt(v,x){var s=x[4]?v.toFixed(x[4]):Math.round(v).toLocaleString("en-IN");return x[2]+s+(x[3]?" "+x[3]:"")}
+function count(el){var x=el._x,end=x[1],t0=null;if(reduce){el.textContent=fmt(end,x);return}
+function f(t){if(!t0)t0=t;var p=Math.min((t-t0)/1500,1);el.textContent=fmt(end*(1-Math.pow(1-p,3)),x);if(p<1)requestAnimationFrame(f)}requestAnimationFrame(f)}
+var cur="meta";
+function render(k){cur=k;var h="",ch="",ref=Math.max.apply(null,D[k].s.map(function(x){return x[1]}));
+D[k].s.forEach(function(x,i){h+='<div class="card"><div class="lbl">'+x[0]+'</div><div class="num" data-i="'+i+'">0</div><div class="bar" style="margin-top:12px"><i></i></div></div>'});
+$("#dash").innerHTML='<div class="grid">'+h+'</div>';
+var els=document.querySelectorAll("#dash .num");els.forEach(function(e){e._x=D[k].s[e.dataset.i]});
+var lv=D[k].s.map(function(x){return Math.log10(x[1]*(x[3]=="Lakh"?1e5:x[3]=="Million"?1e6:1))});var mx=Math.max.apply(null,lv);
+$("#chart").innerHTML=D[k].s.map(function(x){return '<div><b></b>'+x[0]+'</div>'}).join("");
+requestAnimationFrame(function(){els.forEach(count);document.querySelectorAll("#dash .bar i").forEach(function(b,i){b.style.width=(lv[i]/mx*100)+"%"});document.querySelectorAll("#chart b").forEach(function(b,i){b.style.height=(lv[i]/mx*100)+"%"})})}
+var dashSeen=false;new IntersectionObserver(function(e,o){if(e[0].isIntersecting){dashSeen=true;render(cur);o.disconnect()}},{threshold:.2}).observe($("#dash"));
+document.querySelectorAll(".tabs .btn").forEach(function(b){b.onclick=function(){document.querySelectorAll(".tabs .btn").forEach(function(x){x.classList.remove("on")});b.classList.add("on");render(b.dataset.tab)}});
+$("#chart").insertAdjacentHTML("afterend","");
+// expertise
+var E=C.expertise.map(function(e){return [e.title,e.text]});
+$("#exp").innerHTML=E.map(function(e,i){return '<div class="card rv" style="--d:'+(i%4*.08)+'s"><div class="ico">'+e[0][0]+'</div><h3>'+e[0]+'</h3><p>'+e[1]+'</p></div>'}).join("");
+// process
+var S=C.process.map(function(e){return [e.title,e.text]});
+$("#steps").innerHTML=S.map(function(s,i){return '<button class="step'+(i?'':' on')+'" data-i="'+i+'">'+(i+1)+'. '+s[0]+'</button>'+(i<6?'<span class="arr">→</span>':'')}).join("");
+function info(i){$("#stepinfo").innerHTML='<h3>'+S[i][0]+'</h3><p>'+S[i][1]+'</p>'}info(0);
+document.querySelectorAll(".step").forEach(function(b){b.onclick=function(){document.querySelectorAll(".step").forEach(function(x){x.classList.remove("on")});b.classList.add("on");info(b.dataset.i)}});
+// tools
+$("#pills").innerHTML=C.tools.map(function(t){return "<span>"+t+"</span>"}).join("");
+// gallery
+var items=PROJECTS.slice();try{var sv=localStorage.getItem("rs_projects");if(sv)items=items.concat(JSON.parse(sv))}catch(e){}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function gal(){$("#gal").innerHTML=items.map(function(p,i){var m=p.src?(/^data:video|\.mp4|\.webm/.test(p.src)?'<video src="'+p.src+'" muted loop playsinline controls></video>':'<img src="'+p.src+'" alt="'+esc(p.t)+'">'):"Preview";
+return '<div class="card proj rv in"><div class="pv">'+m+'</div><div class="pb">'+(i>=PROJECTS.length?'<button class="rm" data-i="'+i+'" aria-label="Remove">×</button>':'')+'<span class="tag">'+esc(p.c)+'</span><h3>'+esc(p.t)+'</h3><p>'+esc(p.d||"")+'</p></div></div>'}).join("");
+document.querySelectorAll(".rm").forEach(function(b){b.onclick=function(){items.splice(b.dataset.i,1);save();gal()}})}
+function save(){try{localStorage.setItem("rs_projects",JSON.stringify(items.slice(PROJECTS.length)))}catch(e){toast("Could not save: file too large for browser storage.")}}
+gal();
+$("#addf").onsubmit=function(e){e.preventDefault();var f=$("#pf").files[0],p={t:$("#pt").value,c:$("#pc").value,d:$("#pd").value};
+function done(){items.push(p);save();gal();$("#addf").reset();toast("Project added")}
+if(f){if(f.size>3e6){toast("Please use a file under 3 MB.");return}var r=new FileReader();r.onload=function(){p.src=r.result;done()};r.readAsDataURL(f)}else done()};
+// reveal, nav, glow, parallax
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target);e.target.querySelectorAll("[data-c]").forEach(function(c){c._x=[0,+c.dataset.c,"","",0];count(c);if(c.dataset.s)c.insertAdjacentText("afterend",c.dataset.s)})}})},{threshold:.15});
+document.querySelectorAll(".rv").forEach(function(e){io.observe(e)});
+addEventListener("scroll",function(){$("#nav").classList.toggle("s",scrollY>30)},{passive:true});
+if(!reduce){var g=$("#glow");addEventListener("pointermove",function(e){g.style.left=e.clientX+"px";g.style.top=e.clientY+"px"},{passive:true});
+var st=$("#stage");addEventListener("scroll",function(){if(scrollY<900)st.style.transform="translateY("+scrollY*.08+"px)"},{passive:true})}
+var W=["ROAS","CTR","CPC","CPA","CONVERSIONS"],wi=0;
+if(RESUME_URL){$("#cv").href=RESUME_URL}
+if(!reduce)setInterval(function(){var r=$("#rt");r.style.opacity=0;setTimeout(function(){wi=(wi+1)%W.length;r.textContent=W[wi];r.style.opacity=1},300)},2200);
+}).catch(function(e){document.body.insertAdjacentHTML("afterbegin","<p style='padding:90px 20px;text-align:center'>Content could not be loaded. Please refresh.</p>")});
+</script></body></html>
